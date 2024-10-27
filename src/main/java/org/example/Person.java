@@ -2,14 +2,13 @@ package org.example;
 
 public class Person {
     private String nome;
-    private Integer idade;
+    private Double idade;
 
 
-    public Person(String nome, Integer idade) {
+    public Person(String nome, Double idade) {
         this.nome = nome;
         this.idade = idade;
     }
-
 
     public String getNome() {
         return nome;
@@ -19,11 +18,11 @@ public class Person {
         this.nome = nome;
     }
 
-    public Integer getIdade() {
+    public Double getIdade() {
         return idade;
     }
 
-    public void setIdade(Integer idade) {
+    public void setIdade(Double idade) {
         this.idade = idade;
     }
 }

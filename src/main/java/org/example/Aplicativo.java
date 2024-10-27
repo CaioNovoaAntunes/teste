@@ -9,8 +9,8 @@ public class Aplicativo {
 
         List<Person> personList = new ArrayList<>();
 
-        Person caio = new Person("Caio", 4);
-        Person david = new Person("David", 20);
+        Person caio = new Person("Caio", 4.10);
+        Person david = new Person("David", 20.30);
 
 
         System.out.println(caio.getIdade());
